@@ -5,15 +5,6 @@
 using namespace std;
 const lli mod = 1e9 + 7;
 
-lli compute_cost(vector<int> arr, int target)
-{
-	lli cost = 0;
-	for (auto ele : arr)
-	{
-		cost += abs(target - ele);
-	}
-	return cost;
-}
 
 int main()
 {
